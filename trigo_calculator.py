@@ -1,4 +1,4 @@
-import math
+import math #math module required to run
 
 print("Operations option: ")
 print("1.sin, 2.cos, 3.tan, 4.cot, 5.sec, 6.cosec")
