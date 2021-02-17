@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main(){
 
-//variable declaraqtion
+//variable declaration
     char operator;
     int num1, num2;
     int result;
@@ -13,7 +13,7 @@ int main(){
 //operator shown
     printf("You have selected %c \n", operator);
 
-//num1 and num2 aentered
+//num1 and num2 entered
     printf("Please enter num1: \n");
     scanf("%d",&num1);
     printf("Please enter num2: \n");
