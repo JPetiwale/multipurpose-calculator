@@ -1,14 +1,13 @@
 # calculator
 
-Run _main.py
+Run main_calculator.py
 
 command:
-python _main.py
+python main_calculator.py
 
 --------------------------------------
 UPDATE Coming Soon: 
 
 New Feature inclusion: 
--Simple interest calculation;
 -Permutation N Combination calculation;
 -A good UI;
