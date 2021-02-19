@@ -93,25 +93,27 @@ else:
             print("Invalid Operator")
 
         if SI_operator=="1":
-            p=float(input("Please enter princple amount: "))
-            r=float(input("Please enter Rate of Interest per year in Percent: "))
+            p=float(input("Please enter princple amount: Rs."))
+            r=float(input("Please enter Rate of Interest per year in Percent(%): "))
             t=float(input("Please enter Time Duration in Year: "))
-            print("Interest Amount = ",I_total(p,r,t))
+            print("Interest Amount = Rs.",I_total(p,r,t))
 
         elif SI_operator=="2":
-            i=float(input("Please enter interest amount: "))
-            r=float(input("Please enter Rate of Interest per year in Percent: "))
+            i=float(input("Please enter interest amount: Rs."))
+            r=float(input("Please enter Rate of Interest per year in Percent(%): "))
             t=float(input("Please enter Time Duration in Year: "))
-            print("Principle Amount = ",P_total(i,r,t))
+            print("Principle Amount = Rs.",P_total(i,r,t))
 
         elif SI_operator=="3":
-            p=float(input("Please enter princple amount: "))
-            i=float(input("Please enter interest amount: "))
+            p=float(input("Please enter princple amount: Rs."))
+            i=float(input("Please enter interest amount: Rs."))
             t=float(input("Please enter Time Duration in Year: "))
             print("Rate of Interest = ",R_total(p,i,t),"%")
 
         elif SI_operator=="4":
-            i=float(input("Please enter interest amount: "))
-            r=float(input("Please enter Rate of Interest per year in Percent: "))
-            p=float(input("Please enter princple amount: "))
+            i=float(input("Please enter interest amount: Rs."))
+            r=float(input("Please enter Rate of Interest per year in Percent(%): "))
+            p=float(input("Please enter princple amount: Rs."))
             print("Time = ",T_total(i,r,p)," Years")
+
+#end
