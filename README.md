@@ -1,5 +1,7 @@
 # calculator
 
+🛑READ ME FIRST🛑 PLEASE !!!! 🛑
+
 Run main_calculator.py
 
 command:
