@@ -15,8 +15,8 @@ def T_total(i,r,p):
 
 #Main start
 print("Operation options:")
-print("0. Actual Calculator, 1.Basic Calculator, 2.Trigonometry Calculator, 3.Simple Interest Calculation")
-operation=input("Select option (0/1/2/3): ")
+print("1.Basic Calculator, 2.Trigonometry Calculator, 3.Simple Interest Calculation, 0.Actual Calculator")
+operation=input("Select option (1/2/3/0): ")
 
 #Main inavlid if else
 if operation not in("0","1","2","3"):
