@@ -13,13 +13,20 @@ def R_total(p,i,t):
 def T_total(i,r,p):
     return (i*100)/(p*r)
 
+def permutation(n,r):
+    return math.perm(n,r)
+
+def combination(n,r):
+    return math.comb(n,r)
+
 #Main start
 print("Operation options:")
-print("1.Basic Calculator, 2.Trigonometry Calculator, 3.Simple Interest Calculation, 0.Actual Calculator")
-operation=input("Select option (1/2/3/0): ")
+print("1.Basic Calculator, 2.Trigonometry Calculator, 0.Actual Calculator")
+print("3.Simple Interest Calculation, 4.Permutation And Combination")
+operation=input("Select option (0/1/2/3/4): ")
 
 #Main inavlid if else
-if operation not in("0","1","2","3"):
+if operation not in("0","1","2","3","4"):
     print("Invalid Input")
 else:
 #Basic Calculator    
@@ -193,5 +200,30 @@ else:
             Decimal.grid(row=6,column=0) 
 
         gui.mainloop()
+
+#Permutation And Combination
+    elif operation=="4":
+        print("Permutation And Combination")
+        print("What will you like to do ?")
+        print("1.Permutation, 2.Combination")
+        operator=input("select your operator: ")
+
+        if operator not in ("1","2"):
+            print("Invalid Operator")
+        else:
+            if operator=="1":
+                print("P(n,r): where")
+                print("n=set size; The total number of items in the sample")
+                print("r=set subsize; The total number of items to be selected from the sample")
+                n=int(input("please enter value of n: "))
+                r=int(input("please enter value of r: "))
+                print("permutation of P(",n,",",r,") is: ", permutation(n,r))
+            elif operator=="2":
+                print("C(n,r): where")
+                print("n=set size; The total number of items in the sample")
+                print("r=set subsize; The total number of items to be selected from the sample")
+                n=int(input("please enter value of n: "))
+                r=int(input("please enter value of r: "))
+                print("Combination of C(",n,",",r,") is: ", combination(n,r))
 
 #end
