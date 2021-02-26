@@ -125,6 +125,7 @@ else:
 
 #Acutal Calculator
     elif operation=="0":
+        print("Actual Calculator")
         from tkinter import *
         expression=""
         def press(num):
