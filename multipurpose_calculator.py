@@ -1,6 +1,8 @@
 import math
 
 #defination
+
+#Simple Interest
 def I_total(P,r,t):
     return (p*r*t)/100
 
@@ -13,11 +15,16 @@ def R_total(p,i,t):
 def T_total(i,r,p):
     return (i*100)/(p*r)
 
+#Permutation & Combination
 def permutation(n,r):
     return math.perm(n,r)
 
 def combination(n,r):
     return math.comb(n,r)
+
+def print_detail():
+    print("n=set size; The total number of items in the sample")
+    print("r=set subsize; The total number of items to be selected from the sample")
 
 #Main start
 print("Operation options:")
@@ -214,15 +221,13 @@ else:
         else:
             if operator=="1":
                 print("P(n,r): where")
-                print("n=set size; The total number of items in the sample")
-                print("r=set subsize; The total number of items to be selected from the sample")
+                print(print_detail())
                 n=int(input("please enter value of n: "))
                 r=int(input("please enter value of r: "))
                 print("permutation of P(",n,",",r,") is: ", permutation(n,r))
             elif operator=="2":
                 print("C(n,r): where")
-                print("n=set size; The total number of items in the sample")
-                print("r=set subsize; The total number of items to be selected from the sample")
+                print(print_detail())
                 n=int(input("please enter value of n: "))
                 r=int(input("please enter value of r: "))
                 print("Combination of C(",n,",",r,") is: ", combination(n,r))
