@@ -4,10 +4,10 @@
 
 Run main_calculator.py
 
-command:
-'''
+command:  
+```
 python main_calculator.py
-'''
+```
 
 --------------------------------------
 UPDATE Coming Soon: 
