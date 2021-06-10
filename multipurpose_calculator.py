@@ -207,6 +207,7 @@ else:
             Decimal=Button(gui,text='.',fg='black', bg='red',command=lambda: press("."),height=1,width=7) 
             Decimal.grid(row=6,column=0) 
 
+        gui.resizable(0,0)
         gui.mainloop()
 
 #Permutation And Combination
