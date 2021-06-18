@@ -1,14 +1,16 @@
 # calculator
 
+⚠Multipurpose_calculator_vBeta.py is a beta version, Still under development ⚠
+
 🛑READ ME FIRST🛑 PLEASE !!!! 🛑
 
-Run main_calculator.py
+Run multipurpose_calculator.py
 
 command:  
 ```
-python main_calculator.py
+python multipurpose_calculator.py
 ```
-
+mul
 --------------------------------------
 UPDATE Coming Soon: 
 
